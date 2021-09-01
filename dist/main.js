@@ -1,0 +1,1 @@
+(()=>{"use strict";var o={p:"/home/itg/Repos/bizarro/dist"};(()=>{const e=o.p+"52eaa9e3061ac350805a51189ce387e8.gif";console.log("production"),console.log(e)})()})();

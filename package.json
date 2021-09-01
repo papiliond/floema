@@ -1,0 +1,55 @@
+{
+  "name": "bizarro",
+  "version": "1.0.0",
+  "description": "Awwards course",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "yarn clear & NODE_ENV=production webpack --progress",
+    "watch": "NODE_ENV=development webpack-dev-server --progress",
+    "start": "node app",
+    "start:dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clear": "rimraf dist"
+  },
+  "author": "Daniel Papilion",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2",
+    "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "glslify-loader": "^2.0.0",
+    "image-minimizer-webpack-plugin": "^2.2.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12",
+    "postcss-loader": "^6.1.1",
+    "raw-loader": "^4.0.2",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^12.1.0",
+    "terser-webpack-plugin": "^5.2.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
